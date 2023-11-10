@@ -21,15 +21,21 @@ h1 {
     border-color: #fbd459;
 }
 
+/* horizontal ruler */
 hr {
     width: 75px;
     height: 5px;
     border: 0;
-    margin-top: 30px;
+    margin: 30px auto;
+    background-color: #444;
 }
 
 .hr--orange {
    background-color: #f05f40;
+}
+
+.hr--white {
+    background-color: white;
 }
 
 .hr--short {
@@ -124,3 +130,26 @@ hr {
     border-color: #df4929;
     color: white;
 }
+
+/*  Quotes section */
+
+.quotes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding: 75px 0;
+}
+
+
+/* headers */
+
+.header {
+    margin-bottom: 0;
+    border-bottom: 0;
+}
+
+.heder h2 {
+    margin-top: 0;
+}
+
