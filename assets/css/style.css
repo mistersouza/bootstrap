@@ -7,6 +7,20 @@ h1 {
     font-weight: 700;
 }
 
+/* alert */
+.alert-container {
+    padding: 0;
+}
+
+.alert-warning {
+    border-radius: 0;
+    margin-bottom: 0;
+    padding: 5px 15px;
+    font-weight: 700;
+    background-color: #fbd459;
+    border-color: #fbd459;
+}
+
 hr {
     width: 75px;
     height: 5px;
